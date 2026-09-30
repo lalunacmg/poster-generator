@@ -88,3 +88,5 @@ assets/laluna-official-logo-transparent.png  Locked official poster logo
 assets/app-icon-192.png                   PWA/home-screen icon
 assets/app-icon-512.png                   PWA/home-screen icon
 assets/brand-reference-poster.png         Supplied visual reference
+v0.3.1 mobile tab scrolling
+On screens up to 820 px wide, Poster, Item, Design, and Queue now use viewport-contained scrolling above the fixed bottom navigation. Each tab keeps its own scroll position while you switch tabs. Programmatic jumps (for example, generating from a raw photo and returning to Poster) intentionally open the destination tab at the top so the newly generated poster is immediately visible. iOS momentum scrolling, safe-area spacing, and overscroll containment are included.
